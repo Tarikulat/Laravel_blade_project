@@ -27,7 +27,7 @@
                 </header>
             @endif
 
-            <!-- Page Content -->
+            <!-- Page Content below -->
             <main>
                 {{ $slot }}
             </main>
