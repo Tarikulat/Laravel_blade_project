@@ -23,6 +23,7 @@
             
         </tr>
      </thead>
+<!--Tbody section -->
         <tbody>
             @foreach ($user as $row)
             <tr>
