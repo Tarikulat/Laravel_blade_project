@@ -46,7 +46,7 @@ Route::middleware('auth')->group(function () {
 
 require __DIR__.'/auth.php';
 
-/*--------------------categories--------------------*/
+/*--------------------categories below--------------------*/
 
 Route::get('/addcategories', [CategorieController::class, 'create'])->name('categorie');
 Route::post('/storecategories', [CategorieController::class, 'store'])->name('c_add');
